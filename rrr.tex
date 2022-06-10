@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+ 
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & #2 \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	\textbf{\Huge \scshape Ankan Pal} \\ \vspace{1pt}
+	\small +919735253735 $|$ \href{mailto:
+ankanpalcse19a@gmail.com}{\underline{
+ankanpalcse19a@gmail.com}} $|$
+	\href{https://linkedin.com/in/ankanpal}{\underline{linkedin.com/in/ankanpal}} $|$
+	\href{https://github.com/ankan1811}{\underline{github.com/ankan1811}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Institute of Engineering and Management}{Kolkata, India}
+  	{Bachelor of Technology in Computer Science, Secured an aggregate of 9.51 CGPA}{Aug. 2019 -- July 2023 (Expected)}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+	\resumeSubheading
+  	{Open Source Contributor \href{https://github.com/TesseractCoding/NeoAlgo/commits?author=ankan1811}{\includegraphics[scale=0.025]{github68.png}}} {Feb 2021 -- June 2021}
+  	{Girlscript Summer of Code}{Remote}
+  	\resumeItemListStart
+    	\resumeItem{I contributed to \textbf{NeoAlgo},a repository for \textbf{data structures and algorithms}, by adding several new algorithms along with their documentations and reduced bugs by 20 percent in the entire codebase which consists of \textbf{550+ stars} and \textbf{980+ forks}. I have also \textbf{mentored} other  motivated contributors and \textbf{reviewed} their \textbf{pull requests}.}
+    	
+  	\resumeItemListEnd
+  	
+	\resumeSubheading
+  	{Web Developer Extern \href{https://github.com/ankan1811/Crio-Winter-of-Doing-Part-2}{\includegraphics[scale=0.025]{github68.png}}} {Jan 2021 -- March 2021 }
+  	{Crio.Do}{Remote}
+  	\resumeItemListStart
+    	\resumeItem{I had built a full stack meme streaming application which also included a \textbf{scalable},\textbf{distributed} backend system  using \textbf{mongodb},\textbf{reactjs} and \textbf{Node.js}  in which users can paste url of memes and post it.I was one of the top \textbf{200} out of \textbf{10000} externs who qualified for the Stage 2 of Crio Winter of doing Externship.}
+    	
+  	\resumeItemListEnd
+  	\resumeSubheading
+  	{Android Developer \href{https://github.com/ankan1811/Notes-App}{\includegraphics[scale=0.025]{github68.png}}} {Dec 2019 -- Jan 2020}
+  	{Google Developer Student Club}{Kolkata,West Bengal}
+  	\resumeItemListStart
+    	\resumeItem{I had created a notes app in which users can create and delete their notes which are stored in a realtime database.This app follows the \textbf{MVVM} architecture. I made this app using \textbf{Kotlin} and \textbf{Room database}.}
+  	\resumeItemListEnd
+% -----------Multiple Positions Heading-----------
+%	\resumeSubSubheading
+% 	{Software Engineer I}{Oct 2014 - Sep 2016}
+% 	\resumeItemListStart
+%    	\resumeItem{Apache Beam}
+%      	{Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+% 	\resumeItemListEnd
+%	\resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+	\resumeSubHeadingListStart
+  	\resumeProjectHeading
+      	{\textbf{FireFlash }\href{https://github.com/ankan1811/FireFlash}{\includegraphics[scale=0.025]{github68.png}} $|$ \emph{React, Node.js, MongoDB, Express.js}} {Nov 2020 -- Dec 2020}
+
+      	\resumeItemListStart
+        	\resumeItem{ A \textbf{full stack} web application consisting of \textbf{all major functions} of a social media similar to \textbf{Instagram}.}
+        \resumeItem{It also includes \textbf{user authentication} which is implemented using \textbf{JSON web token}.}
+        	
+      	\resumeItemListEnd
+  	\resumeProjectHeading
+      	{\textbf{Realtime Chat Application}\href{https://github.com/ankan1811/Realtime-Chat-App}{\includegraphics[scale=0.015]{github78.png}}$|$ \emph{React, Node.js, Socket.io}}{Dec 2020 -- Jan 2021}	
+      	
+      	\resumeItemListStart
+        	\resumeItem{A Chat application in which users can enter into any room of their \textbf{choice} and chat with the other room members \textbf{realtime}.}
+        	\resumeItem{It also shows the \textbf{online} visibility of every user. Socket.io module was used for \textbf{instantaneous bi-directional data transfer}.}
+      	\resumeItemListEnd
+	
+	\resumeProjectHeading
+      	{\textbf{Social Media App}\href{https://github.com/ankan1811/Social-Media-App}{\includegraphics[scale=0.015]{github78.png}}$|$ \emph{Kotlin, Firebase}}{Jan 2021 -- Feb 2021}
+      	
+      	
+      	\resumeItemListStart
+        	\resumeItem{An \textbf{android} application which allows users to login using \textbf{Google authentication} and make a post in \textbf{realtime.}}
+        	\resumeItem{The post includes \textbf{profile picture} of the user,\textbf{display time} and \textbf{message} displayed by the \textybf{creator} of the post and it will also be visible to all other \textbf{app users}.}
+      	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+        	\resumeItemListStart
+        	\resumeItem{Stood \textbf{300}th out of \textbf{35000} in Codechef October Long Challenge}
+ 
+        	\resumeItem{Solved \textbf{700+} problems on Data Structures and Algorithms at\textbf{ \href{https://leetcode.com/ankan1811}{\underline{Leetcode}}}}
+        	\resumeItem{Got a rank of \textbf{55} out of \textbf{10000} in IEMCO Coding Olympiad.}
+        		\resumeItem{Got a rank of \textbf{78} out of \textbf{6000} in \textbf{Local Hack Day Share} , an \textbf{MLH} hackathon.}
+      	\resumeItemListEnd
+ \end{itemize}
+
+ \section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+        	\resumeItemListStart
+        	\resumeItem{\textbf{Data Structures and Algorithms (Programming Languages)} : C,C++ and Java}
+        	\resumeItem{ \textbf{Web development} : React.js, Node.js, JavaScript, MongoDB, CSS, HTML}
+        	\resumeItem{ \textbf{Android app Development} : Kotlin, Firebase, MVVM}
+        	\resumeItem{\textbf{Computer Science Fundamentals} : Operating System , Database Management System , OOPs}
+      	\resumeItemListEnd
+ \end{itemize}
+ 
+  \section{Position of responsibilty}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+        	\resumeItemListStart
+        	\resumeItem{ \textbf{Codechef IEMK Chapter} : Core Committee Member. I have solved various questions of Competitive Coding}
+        		\resumeItem{ \textbf{EddieHub} : Core Team  Member of a community which promotes open source contributions.}
+        
+      	\resumeItemListEnd
+ \end{itemize}
+%-------------------------------------------
+\end{document}
+
